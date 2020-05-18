@@ -1,6 +1,6 @@
 # Design Teardown
 
-> This project consist of building a heatmap of the [Smashing Megazine] (https://www.smashingmagazine.com/) website.
+> This project consist of building a heatmap of the [Smashing Megazine](https://www.smashingmagazine.com/) website.
 
 ## Requirements:
 
