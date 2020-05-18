@@ -122,20 +122,23 @@ h2 {
   padding: 20px;
 }
 
-.first-link {
+.first-link,
+.third-link {
   display: flex;
   width: 100%;
-  height: 300px;
+  height: 200px;
   background-color: rgb(177, 177, 177);
   justify-content: center;
+  align-items: center;
 }
 
 .second-link {
-  display: grid;
+  display: flex;
   justify-content: center;
   width: 100%;
-  height: 200px;
-  background-color: lightblue;
+  height: 1000px;
+  background-color: rgb(192, 198, 201);
+  align-items: center;
 }
 
 .container5 {
@@ -152,8 +155,8 @@ h2 {
 
 .grid {
   height: 300px;
-
-  background-color: red;
+  background-color: rgb(99, 93, 93);
+  padding: 70px;
 }
 
 .first {
@@ -182,12 +185,6 @@ h2 {
 
 .seventh {
   grid-area: seven;
-}
-
-.third-link {
-  width: 100%;
-  height: 200px;
-  background-color: rgb(92, 138, 110);
 }
 
 .fourth-link {
