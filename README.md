@@ -2,6 +2,8 @@
 
 > This project consist of building a heatmap of the [Smashing Megazine](https://www.smashingmagazine.com/) website.
 
+![screenshot of webpage](assets/images/Smashing-magazine.png)
+
 ## Requirements:
 
 - Align elements with float, grid or flex.
