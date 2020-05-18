@@ -1,68 +1,226 @@
-nav {
-    background: rgb(139, 132, 132);
-    height: 80px;
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 20px;
 }
 
-.container1{
-    display: grid;
-    height: 500px;
-    grid-auto-rows: minmax(50px auto);
-    grid-template-columns: 1fr 1fr;
+nav {
+  background: rgb(139, 132, 132);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: rgb(53, 50, 50);
+  padding: 10px;
+  width: 50px;
+  color: #ffffff;
+  border-radius: 7px;
+}
+
+.container1 {
+  display: grid;
+  height: 1200px;
+  grid-auto-rows: minmax(50px auto);
+  grid-template-columns: 1fr 1fr;
+}
+
+p,
+h2 {
+  background-color: grey;
+  text-align: center;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 7px;
 }
 
 .one {
-    /*rs cs re ce*/
-    grid-area: 1/1/2/2;
-    background-color: #b1b1b1;
+  grid-area: 1/1/2/2;
+  background-color: #b1b1b1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
+
 .two {
-    grid-area: 1/2/2/3;
-    background-color: rgb(66, 66, 66);
+  grid-area: 1/2/2/3;
+  background-color: rgb(66, 66, 66);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-.three{
-    grid-area: 2/1/3/2;
-    background-color: rgb(76, 77, 76);
-}
-.four{
-    grid-area: 2/2/3/3;
-    background-color: rgb(197, 197, 197);
-}
-
-.container2{
-    display: flex;
-    justify-content: space-around;
-}
-.container2 article, .container2 div {
-    margin: 1px;
-    background-color: rgb(85, 79, 79);
-    flex-grow: 1;
-    height: 500px;
+.three {
+  grid-area: 2/1/3/2;
+  background-color: rgb(76, 77, 76);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
-.container3, .container4    {
-    display: flex;
-    background-color: green;
-    justify-content: space-around;
+.four {
+  grid-area: 2/2/3/3;
+  background-color: rgb(197, 197, 197);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
-.container3 div, .container4 div{
-    flex-grow: 2;
+.container2 {
+  display: flex;
+  justify-content: space-around;
 }
-.container3 article, .container4 article{
-    margin: 1px;
-    background-color: hotpink;
-    flex-grow: 1;
-    height: 400px;
+
+.container2 article,
+.container2 div {
+  margin: 1px;
+  background-color: rgb(85, 79, 79);
+  flex-grow: 1;
+  height: 500px;
+  padding: 20px;
+}
+
+.container2 div {
+  background-color: rgb(161, 155, 155);
+}
+
+.container3,
+.container4 {
+  display: flex;
+  background-color: rgb(116, 122, 116);
+  justify-content: space-around;
+}
+
+.container3 div,
+.container4 div {
+  width: 50%;
+  padding: 20px;
+}
+.container3 article,
+.container4 article {
+  margin: 1px;
+  background-color: rgb(63, 59, 61);
+  width: 25%;
+  height: 700px;
+  padding: 20px;
 }
 
 .first-link {
-    width: 100%;
-    height: 100px;
-    background-color: indigo;
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(177, 177, 177);
+  justify-content: center;
 }
 
-.second-link{
-    width: 100%;
-    height: 600px;
-    background-color: lightblue;
+.second-link {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  background-color: lightblue;
+}
+
+.container5 {
+  gap: 10px;
+  display: grid;
+  grid-column: 1fr 1fr;
+  grid-auto-rows: minmax(100px auto);
+  grid-template-areas:
+    "one one"
+    "two three"
+    "four five"
+    "six seven";
+}
+
+.grid {
+  height: 300px;
+
+  background-color: red;
+}
+
+.first {
+  grid-area: one;
+}
+
+.second {
+  grid-area: two;
+}
+
+.third {
+  grid-area: three;
+}
+
+.fourth {
+  grid-area: four;
+}
+
+.fifth {
+  grid-area: five;
+}
+
+.sixth {
+  grid-area: six;
+}
+
+.seventh {
+  grid-area: seven;
+}
+
+.third-link {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(92, 138, 110);
+}
+
+.fourth-link {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(92, 138, 110);
+}
+
+.container6 {
+  display: flex;
+}
+
+.container6 div {
+  flex-grow: 1;
+  background-color: rgb(160, 123, 123);
+  height: 800px;
+  margin: 5px;
+}
+
+.fifth-link {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(169, 145, 214);
+}
+
+.sixth-link {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(92, 96, 136);
+}
+
+footer {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(29, 33, 75);
 }
