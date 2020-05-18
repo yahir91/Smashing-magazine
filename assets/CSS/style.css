@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+h1 {
+  display: none;
+}
+
 body {
   font-family: "Balsamiq Sans", cursive;
   font-size: 20px;

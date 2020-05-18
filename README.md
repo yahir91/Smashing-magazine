@@ -1,17 +1,11 @@
-# Positioning and Floating Elements
+# Design Teardown
 
-> This project assigment is to copy an old version from apple website
-Url: https://web.archive.org/web/20140301004610/http://www.apple.com/
-
-![screenshot](/assets/images/screenshot.png)
-
-    This project goal is to understand and apply gradients and backgrounds.
+> This project consist of building a heatmap of the [Smashing Megazine] (https://www.smashingmagazine.com/) website.
 
 ## Requirements:
 
-- Positioning using Flexbox OR Grid
-- Floats and positioning
-- The CSS background should cover the whole page irrespective of the screen size.
+- Align elements with float, grid or flex.
+- Use article tags for all articles listed.
 
 ## Built With
 
@@ -19,7 +13,7 @@ Url: https://web.archive.org/web/20140301004610/http://www.apple.com/
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/jessicafarias/AppleProject/homePage/index.html)
+[Live Demo Link](https://raw.githack.com/yahir91/Smashing-magazine/version1/index.html)
 
 
 ## Getting Started
@@ -27,7 +21,7 @@ Url: https://web.archive.org/web/20140301004610/http://www.apple.com/
 To get a local copy up and running follow these simple example steps.
 
 1. Open the terminal comand line window
-2. ``` git clone https://github.com/jessicafarias/AppleProject.git ```
+2. ``` git clone git@github.com:yahir91/Smashing-magazine.git ```
 3. Open the index.html with your favorite browser
 4. Enjoy!
 
@@ -39,6 +33,13 @@ To get a local copy up and running follow these simple example steps.
 - Github: [jessicafarias](https://github.com/jessicafarias)
 - Twitter: [@FariasRosado](https://twitter.com/FariasRosado)
 - Linkedin: [jessica-michelle-farias-rosado](https://www.linkedin.com/in/jessica-michelle-farias-rosado/)
+
+👤 **Yahir Cardona**
+
+- Github: [@yahir91](https://github.com/yahir91)
+- Twitter: [@YahirCardona3](https://twitter.com/YahirCardona3)
+- Linkedin: [linkedin](https://www.linkedin.com/in/osmar-yahir-cardona-reyes-54b40b1a7/)
+
 
 ## 🤝 Contributing
 
