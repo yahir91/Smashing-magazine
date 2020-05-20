@@ -1,0 +1,269 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  display: none;
+}
+
+body {
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 20px;
+}
+
+a {
+  color: black;
+  font-size: 30px;
+}
+
+nav {
+  background: rgb(139, 132, 132);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: rgb(53, 50, 50);
+  padding: 10px;
+  color: #fff;
+  border-radius: 7px;
+}
+
+.container1 {
+  display: grid;
+  height: 1200px;
+  grid-auto-rows: minmax(50px auto);
+  grid-template-columns: 1fr 1fr;
+}
+
+p,
+h2,
+h3 {
+  background-color: grey;
+  text-align: center;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.one {
+  grid-area: 1/1/2/2;
+  background-color: #b1b1b1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.two {
+  grid-area: 1/2/2/3;
+  background-color: rgb(66, 66, 66);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.three {
+  grid-area: 2/1/3/2;
+  background-color: rgb(76, 77, 76);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.four {
+  grid-area: 2/2/3/3;
+  background-color: rgb(197, 197, 197);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container2 article,
+.container2 div {
+  margin: 1px;
+  background-color: rgb(85, 79, 79);
+  flex-grow: 1;
+  height: 500px;
+  padding: 20px;
+}
+
+.container2 div {
+  background-color: rgb(161, 155, 155);
+}
+
+.container3,
+.container4 {
+  display: flex;
+  background-color: rgb(116, 122, 116);
+  justify-content: space-around;
+}
+
+.container3 div,
+.container4 div {
+  width: 50%;
+  padding: 20px;
+}
+
+.container3 article,
+.container4 article {
+  margin: 1px;
+  background-color: rgb(63, 59, 61);
+  width: 25%;
+  height: 700px;
+  padding: 20px;
+}
+
+.first-link,
+.third-link,
+.fourth-link {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(177, 177, 177);
+  justify-content: center;
+  align-items: center;
+}
+
+.second-link {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(192, 198, 201);
+  align-items: center;
+}
+
+.container5 {
+  gap: 10px;
+  display: grid;
+  grid-column: 1fr 1fr;
+  grid-auto-rows: minmax(100px auto);
+  grid-template-areas:
+    "one one"
+    "two three"
+    "four five"
+    "six seven";
+}
+
+.grid {
+  height: 300px;
+  background-color: rgb(99, 93, 93);
+  padding: 70px;
+}
+
+.first {
+  grid-area: one;
+}
+
+.second {
+  grid-area: two;
+}
+
+.third {
+  grid-area: three;
+}
+
+.fourth {
+  grid-area: four;
+}
+
+.fifth {
+  grid-area: five;
+}
+
+.sixth {
+  grid-area: six;
+}
+
+.seventh {
+  grid-area: seven;
+}
+
+.fourth-link {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(107, 107, 107);
+}
+
+.container6 {
+  display: flex;
+  margin: 10px;
+}
+
+.container6 div {
+  flex-grow: 1;
+  background-color: rgb(61, 61, 61);
+  height: 800px;
+  margin: 5px;
+  padding: 10px;
+}
+
+footer li {
+  min-width: 200px;
+}
+
+.container6 li {
+  margin: 10px;
+  background-color: lightgray;
+  padding: 10px;
+  list-style: none;
+}
+
+.fifth-link {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(95, 94, 97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+}
+
+.sixth-link {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(87, 87, 87);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+}
+
+footer {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(120, 121, 131);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  background-color: blanchedalmond;
+  margin: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
